@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-color: rgb(28, 28, 28);
+}
+
+div#div1.cabecalho {
+    margin: auto;
+    padding: 12px;
+    box-shadow: 0px 2px 12px rgba(11, 11, 11, 0.585);
+}
+
+div#div1 h1 {
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 400%;
+    color: rgb(255, 255, 255);
+}
+
+div#div1 p.subtitulo {
+    text-align: center;
+    margin-top: 4px;
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: lighter;
+}
+
+.principais-noticias {
+    max-width: 600px;
+    margin: auto;
+    font-size: 12px;
+    padding: 12px;
+}
+
+.principais-noticias h2 {
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.principais-noticias a {
+    text-decoration: none;
+}
+
+.principais-noticias a:hover {
+    text-decoration: underline;
+}
+
+.principais-noticias p {
+    text-indent: 24px;
+}
